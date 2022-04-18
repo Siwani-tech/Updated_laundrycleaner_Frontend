@@ -6,7 +6,7 @@ function Middle() {
   return (
     <div className="home">
         <div className="home_container">
-            <img className='home_img' src="https://cdn.cnn.com/cnnnext/dam/assets/210915133905-how-to-do-laundry-lead.jpg" style={{"height": '15%',"width":'100%',"zIndex":-1,}} alt="" />
+            {/* <img className='home_img' src="https://cdn.cnn.com/cnnnext/dam/assets/210915133905-how-to-do-laundry-lead.jpg" style={{"height": '15%',"width":'100%',"zIndex":-1,}} alt="" /> */}
             <div className="img_name">
                 <h1>DRY CLEANING</h1>
             </div>
@@ -18,11 +18,8 @@ function Middle() {
                 <Product id={3} price={199.99} image={`/GarmentsImage/Pant-PNG-Pic.png`}/>
                 <Product id={4} price={199.99} image={`/GarmentsImage/Blouse-PNG-Free-Download-1.png`}/>
                 <Product id={5} price={199.99} image={`/GarmentsImage/Fashion-Garment-PNG-Images-HD.png`}/>
-                <Product id={6} price={199.99} image={`/GarmentsImage/Fashion-Garment-PNG-Images.png`}/>
-                {/* Product */}
-                {/* Product */}
-                {/* Product */}
-                {/* Product */}
+                {/* <Product id={6} price={199.99} image={`/GarmentsImage/Fashion-Garment-PNG-Images.png`}/> */}
+               
             </div>
             {/* <div className="img_name">
                 <h1>LAUNDRY</h1>
