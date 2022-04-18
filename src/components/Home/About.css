@@ -1,0 +1,38 @@
+
+.about-us{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #18a4cf;
+
+}
+
+.about-us img{
+    height: auto;
+    width: 400px;
+    border-radius: 50%;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: #fff;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h5{
+    color: rgba(255, 255, 255, 0.438);
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+
