@@ -30,6 +30,9 @@
   }
   
   @media screen and (max-width: 960px) {
+    .dropdown-link .dropdown-menu .dropdown-menu.clicked{
+      overflow: visible !important;
+    }
     .fa-caret-down {
       display: none;
     }

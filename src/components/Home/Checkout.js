@@ -13,7 +13,7 @@ function Checkout() {
                 <img className='checkout_ad' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2WN5jN0EBYdFpDzDx3mhCA8d4r4McShSfrg&usqp=CAU" alt="" />
 
                 <div>
-                    <h3>Hello, {user?.email}</h3>
+                    {/* <h3> {user?.email}</h3> */}
                     <h2 className='checkout_title'>Your Laundry Basket</h2>
 
 

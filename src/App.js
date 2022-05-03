@@ -13,7 +13,7 @@ import PrintVoice from './components/Home/Other/PrintVoice';
 
 import Middle from './components/Home/Middle';
 
-import Navbar from './components/Header/Navbar';
+
 // import Services from './components/Home/Services';
 import Works from './components/Home/Works';
 import Repairs from './components/Home/Repairs';
@@ -35,6 +35,10 @@ import UserInformatinon from './components/Home/Other/UserInformatinon';
 import Invoice from './components/Home/Other/Invoice';
 import Seetings from './components/Home/Other/Seetings';
 import Sidebars from './components/Header/Sidebars';
+import Navs from './components/Home/Other/Nav/Navs';
+import EditUser from './components/Home/Other/EditUser';
+import ViewPage from './components/Home/Other/ViewPage';
+
 
 
 function App() {
@@ -98,7 +102,10 @@ function App() {
        <Route exact path='/alterations' element={<> <Sidebars/><Alterations/></>}></Route>
        {/* <Route exact path='/userinformation' element={<> <Sidebars/><UserInformatinon/></>}></Route> */}
        <Route exact path='/invoice' element={<> <Sidebars/><Invoice/></>}></Route>
-       <Route exact path='/userinformation' element={<> <Sidebars/><UserInformatinon/></>}></Route>
+       <Route exact path='/userinformation' element={<> <Navs/><UserInformatinon/></>}></Route>
+       <Route exact path="/viewPage" element={<>  <Navs/> <ViewPage/></>} />
+       <Route exact path="/:id" element={<EditUser/>} />
+       {/* <Route exact path="/:id" element={<Delete/>} /> */}
        <Route exact path='/addarticle' element={<> <Sidebars/><Sidebars/><Addarticle/></>}></Route>
        <Route exact path='/addpricelist' element={<><Sidebars/><AddPrice/></>}></Route>
        <Route exact path='/addservices' element={<> <Sidebars/><AddServices/></>}></Route>

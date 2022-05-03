@@ -1,3 +1,7 @@
+html{
+    background-color: white;
+}
+
 .product{
     display: flex;
     flex-direction: column;
@@ -41,7 +45,50 @@
     color: black;
   }
 
+  /* .button2 {
+    position: relative;
+    display: inline-block;
+    padding: 20px 23px;
+    border-radius: 10px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin: 25px;
+    font-family: "Roboto", sans-serif;
+    filter: hue-rotate(0deg);
+    border: 2px solid #d2bdff;
+    transition: all 0.1s linear;
+    cursor:pointer;
+  }
+  
+  button2:hover {
+      border: 1px solid transparent;
+      text-align: center;
+        position: absolute;
+        display: block;
+        filter: hue-rotate(0deg);
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding:10px;
+        height: 9px;
+        background: linear-gradient(90deg, transparent, #3a86ff);
+        animation: animate1 1s linear infinite;
+  
+        @keyframes animate1 {
+          0% {
+            left: -100%;
+          }
+          50%,
+          100% {
+            left: 100%;
+          }
+        }
+  
+      }
+  
 
-
-
+ */
 

@@ -51,7 +51,7 @@ const handleSignAuthentication=()=>{
 
         {/* 1st logo part  */}
         <div className="logo">
-          <Link to='/services'>
+          <Link to='/'>
           <h2>
             <span>L</span>Lanundry
             
